@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffcc;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+}
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('don.webp') no-repeat center/cover;
+    color: #ffffff;
+    min-height: 400px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+section {
+    padding: 40px 20px;
+}
+#services .service-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#services .item {
+    width: 30%;
+    color: white;
+    background-color: #222;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form label {
+    font-weight: bold;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
